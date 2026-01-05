@@ -14,9 +14,9 @@
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "noEmit": false,
     "jsx": "react-jsx",
     "types": ["vite/client"]
   },
-  "include": ["./**/*.ts", "./**/*.tsx"]
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
 }
